@@ -1,0 +1,16 @@
+$ git --version
+git version 2.51.0
+$ git branch
+  feature/catalogue
+* main
+$ git log --oneline -3
+1756407 Test ISBN sorting, loan rules and console workflow
+f154cd4 Implement Book and interactive ISBN catalogue
+a5a9eb6 Record catalogue design and input rules
+$ git reflog -6 --format="%h %gs"
+1756407 merge feature/catalogue: Fast-forward
+a5a9eb6 checkout: moving from feature/catalogue to main
+1756407 commit: Test ISBN sorting, loan rules and console workflow
+f154cd4 commit: Implement Book and interactive ISBN catalogue
+a5a9eb6 checkout: moving from main to feature/catalogue
+a5a9eb6 commit (initial): Record catalogue design and input rules

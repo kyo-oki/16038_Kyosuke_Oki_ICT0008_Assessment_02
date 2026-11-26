@@ -1,0 +1,17 @@
+ISBN | Title | Author | Date added | Status
+9780141439518 | Pride and Prejudice | Jane Austen | 2025-09-12 | Available
+9780441172719 | Dune | Frank Herbert | 2026-02-10 | Available
+9780451524935 | 1984 | George Orwell | 2025-10-17 | Available
+9780486282114 | Frankenstein | Mary Shelley | 2026-01-09 | Available
+9780547928227 | The Hobbit | J. R. R. Tolkien | 2026-03-04 | Available
+Enter an ISBN to borrow, return ISBN to return, or 0 to exit.
+ISBN> 9780441172719
+Borrowed: 9780441172719 | Dune | Frank Herbert | 2026-02-10 | Borrowed
+ISBN> 9780441172719
+Error: this book is already borrowed.
+ISBN> return 9780441172719
+Returned: 9780441172719 | Dune | Frank Herbert | 2026-02-10 | Available
+ISBN> 9999999999999
+Error: ISBN not found.
+ISBN> 0
+Goodbye.
